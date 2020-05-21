@@ -1,7 +1,8 @@
 {
   "name": "Fly",
-  "version": "1.0.0",
-  "author": "EryouHao",
+  "version": "1.1.0",
+  "author": "EryouHao & whz",
+  "repository": "https://github.com/getgridea/gridea-theme-fly",
   "customConfig": [
     {
       "name": "skin",
