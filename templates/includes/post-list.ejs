@@ -8,10 +8,10 @@
         <%- post.abstract %>
       </div>
       <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> <%= post.dateFormat %></span>
+        <span><i class="fa fa-calendar"></i> <%= post.dateFormat %></span>
         <% if (post.tags.length > 0) { %>
           <span>
-            <i class="icon icon-pricetags-outline"></i>
+            <i class="fa fa-tags"></i>
             <% post.tags.forEach(function(tag, index) { %>
               <a href="<%= tag.link %>">
                 <%= tag.name %>
@@ -35,9 +35,9 @@
 
 <div class="pagination-container">
   <% if (pagination.prev) { %>
-    <a href="<%= pagination.prev %>" class="prev"><i class="icon-arrow-ios-back-outline"></i> 上一页</a>
+    <a href="<%= pagination.prev %>" class="prev">上一页</a>
   <% } %>
   <% if (pagination.next) { %>
-    <a href="<%= pagination.next %>" class="next">下一页 <i class="icon-arrow-ios-forward-outline"></i></a>
+    <a href="<%= pagination.next %>" class="next">下一页</a>
   <% } %>
 </div>
